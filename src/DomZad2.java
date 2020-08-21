@@ -20,7 +20,6 @@ public class DomZad2 {
             } else if (number > -100 && number <= -10) {
                 System.out.println("Число двузначное, отрицательное  ");
             }
-
         } else {
             System.out.println("Введите целое число. ");
         }
