@@ -23,7 +23,6 @@ public class DomZad2 {
         } else {
             System.out.println("Введите целое число. ");
         }
-
     }
 }
 
