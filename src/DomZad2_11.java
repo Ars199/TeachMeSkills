@@ -13,7 +13,7 @@ public class DomZad2_11 {
         */
 
         /*while блок выполняется пока while истинно, однако может "заходить" в цикл, если в условии (incorrect)=false;
-        */
+         */
 
         int firstInt = 3;
         int secondInt = 4;
@@ -25,7 +25,7 @@ public class DomZad2_11 {
             itter = itter + 1;
 
         }
-        System.out.println(count);
+        System.out.println("A*B: " + count);
     }
 }
 
