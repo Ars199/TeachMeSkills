@@ -1,5 +1,5 @@
 
-public class PracticeWhile {
+public class Practice1While {
     public static void main(String[] args) {
         int x1 = 1;
         System.out.println("Перед началом цикла");
@@ -16,8 +16,9 @@ public class PracticeWhile {
             System.out.print("Bee");
             x = x + 1;
         }
-
-
+        if (x == 3) {
+            System.out.print("Do");
+        }
     }
 }
 
