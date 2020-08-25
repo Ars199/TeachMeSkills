@@ -6,7 +6,7 @@ public class Practice1While {
         while (x1 < 4) {
             System.out.println("Внутри цикла");
             System.out.println("Значение Х равно " + x1);
-            x1 += 1;
+            x1 = x1 + 1;
         }
         System.out.println("-------второй пример-----------");
 
