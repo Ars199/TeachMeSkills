@@ -2,7 +2,7 @@
 public class Practice3MassiveLength {
     public static void main(String[] args) {
         String[] wordListOne = {"вышеупомянутый", "круглоголичный", "неординарный", "выдающийся"};
-        String[] wordListTwo = {"приятный", "позиционированный", "совместный"};
+        String[] wordListTwo = {"комплексный", "позиционированный", "совместный"};
         String[] wordListThree = {"подход", "уровень завоеванного внимания"};
 
         //Вычисляем сколько слов в каждом массиве
@@ -16,7 +16,7 @@ public class Practice3MassiveLength {
         int rand3 = (int) (Math.random()) * ThreeLenght;
 
         //Строим фразу
-        String phrase = wordListOne[rand1] + " " + wordListTwo[rand2] + " " + wordListThree[rand3];
+        String phrase = wordListOne[rand1] + " " + wordListTwo[rand2] + " " + wordListThree[1];
         //Выводим
         System.out.println("Всё, что нам нужно - это " + phrase);
 

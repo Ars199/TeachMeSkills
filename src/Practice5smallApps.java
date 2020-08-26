@@ -2,12 +2,15 @@
 public class Practice5smallApps {
     public static void main(String[] args) {
 
-        int x4 = 0;
+        int x = 0;
         int y = 0;
-        while (x4 < 5) {
-            y = y + x4;
-            System.out.println(x4 + "" + y + "");
-            x4 = x4 + 1;
+        while (x < 5) {
+            y = x - y;
+            //y = y + x;
+            //x +=1; y +=1;
+
+            System.out.println(x + "" + y + "");
+            x = x + 1;
         }
     }
 }

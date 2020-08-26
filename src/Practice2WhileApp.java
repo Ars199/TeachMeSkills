@@ -20,7 +20,9 @@ public class Practice2WhileApp {
             } else {
                 System.out.println("Нет бутылок пива на стене");
             }
+
         }
+
     }
 }
 
