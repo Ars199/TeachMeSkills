@@ -7,8 +7,10 @@ public class Practice8BubleSort {
 
         // Выводим на экран все элементы массива
         for (int i = 0; i < myList.length; i++) {
-            System.out.println(myList[i] + " ");
+            System.out.print(myList[i] + " ");
         }
+        System.out.println(" ");
+
         int max = myList[0];
         for (int i = 1; i < myList.length; i++) {
             if (myList[i] > max) {
