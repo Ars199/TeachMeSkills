@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class Lesson4BubleS {
+public class Lesson4BubleSortMassive {
 
     public static void main(String[] args) {
 
