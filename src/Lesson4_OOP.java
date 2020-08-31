@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Lesson4_OOP {   // Person
 
-    String name;
+    String name; //если хотим всем сразу присвоить = "фыв"
     int age;
     //Lesson4_OOP lesson4_oop;
 
