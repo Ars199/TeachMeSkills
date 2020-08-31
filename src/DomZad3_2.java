@@ -24,16 +24,28 @@ public class DomZad3_2 {
             }
             System.out.println(" ");
         }
+        /*
+        int sortingArray[] = new int[a * b];
+        for (int i = 0, temp = 0; i < a; i++) {
+            for (int j = 0; j < b; j++) {
+                sortingArray[temp++] = myList[i][j];
+            }
+        }
 
+        for (int j = 0; j < sortingArray.length; j++) {
+            System.out.print(sortingArray[j] + " ");
+        }
+        System.out.println(" ");
+*/
         boolean isSorted = false;   //Устанавливаем флаг по умолчанию, что отсортирован = фолс
         while (!isSorted) {   //пока не отсортирован --> выполняй цикл
             isSorted = true;   //считаем что массив отсортирован
-            for (int i = 0; i < myList.length - 1; i++) {
+            for (int i = 0; i < myList.length; i++) {
                 for (int j = 0; j < myList[i].length - 1; j++) {  //Поскольку внутренний цикл ссылается на arr[j+1], он должен завершиться на один шаг раньше
-                    if (myList[i][j] > myList[i + 1][j + 1]) {
-                        int temporary = myList[i + 1][j + 1];
-                        myList[i][j] = myList[i + 1][j + 1];
-                        myList[i + 1][j + 1] = temporary;
+                    if (myList[i][j] > myList[i][j + 1]) {
+                        int temporary = myList[i][j]; // // важноё!! поместить в темп то которое затирается!!! >> сохранить должны то значение, которому назначаем новое!!
+                        myList[i][j] = myList[i][j + 1];
+                        myList[i][j + 1] = temporary;
                         isSorted = false;   //если происходит хотябы одна перестановка то сбрасываем обратно в фолс
 
                     }
