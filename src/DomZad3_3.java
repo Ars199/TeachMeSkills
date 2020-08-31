@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class DomZad3_2 {
+public class DomZad3_3 {
 
     public static void main(String[] args) {
         System.out.print("1й массив (длину)(строки): ");
@@ -20,10 +20,24 @@ public class DomZad3_2 {
         for (int i = 0; i < a; i++) {
             for (int j = 0; j < b; j++) {
                 myList[i][j] = random.nextInt(diff);
+
                 System.out.print(myList[i][j] + " ");
             }
             System.out.println(" ");
         }
+        System.out.println(" ");
+
+        int sortingArray[] = new int[a * b];   //представляем двумерный массив в качестве одномерного и сортируем
+        for (int i = 0, temp = 0; i < a; i++) {
+            for (int j = 0; j < b; j++) {
+                sortingArray[temp++] = myList[i][j];   //автозаполнение temp до длины a с вложенным циклом b;
+            }
+        }
+
+        for (int j = 0; j < sortingArray.length; j++) {
+            System.out.print(sortingArray[j] + " ");
+        }
+        System.out.println(" ");
 
         boolean isSorted = false;   //Устанавливаем флаг по умолчанию, что отсортирован = фолс
         while (!isSorted) {   //пока не отсортирован --> выполняй цикл
