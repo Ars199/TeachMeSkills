@@ -4,10 +4,10 @@ import java.util.Scanner;
 public class Lesson4MasxMassive {
 
     public static void main(String[] args) {
-        System.out.println("1й массив (длину)");
+        System.out.println("1й массив (длину)(строки)");
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
-        System.out.println("2й массив (ширину)");
+        System.out.println("2й массив (ширину)(колонки)");
         int b = sc.nextInt();
         int min = 0;
         int max = 16;
