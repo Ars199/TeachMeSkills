@@ -1,13 +1,13 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class Lesson4_OOP {   // Person
+public class Lesson5_OOP {   // Person
 
     String name; //если хотим всем сразу присвоить = "фыв"
     int age;
-    //Lesson4_OOP lesson4_oop;
+    //Lesson5_OOP lesson4_oop;
 
-    public Lesson4_OOP(int ffjfjfj, int zzzxzxzxz) {   //, String name)
+    public Lesson5_OOP(int ffjfjfj, int zzzxzxzxz) {   //, String name)
 
         //по умолчанию создается конструктор
 

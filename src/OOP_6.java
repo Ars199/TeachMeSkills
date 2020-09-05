@@ -1,21 +1,21 @@
-public class OOP_6 {
-    private OOP_6_Lightswitcher lightswitch;// есть свво выключатель,
-    private String name;//стринг свво
+public class OOP_6 {     //OOP_6
+    private LightSwitch lightSwitch;// есть свво выключатель,
+     String name;//стринг свво
 
-    public Room (String name) {
+    public Room(String name) {
         this.name = name;
     }
 
-    public LightSwitch getLightswitch() {
-        return lightswitch;
+    public LightSwitch getLightSwitch() {
+        return lightSwitch;
     }
 
-    public void setLightswitch(LightSwitch lightswitch) {
-        this.lightswitch = lightswitch;
+    public void setLightSwitch(LightSwitch lightSwitch) {
+        this.lightSwitch = lightSwitch;
     }
 
     public void toSwitch() {
-        lightswitch.toSwitch();
+        lightSwitch.toSwitch();
     }
 }
 
