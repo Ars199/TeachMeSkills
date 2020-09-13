@@ -31,7 +31,7 @@ public class Lesson4BubleSortMassive {
         while (!isSorted) {   //пока не отсортирован --> выполняй цикл
             isSorted = true;   //считаем что массив отсортирован
             for (int i = 1; i < array.length; i++) {       // Сравнение и Замена 2х элементов
-                if (array[i] < array[i - 1]) {
+                if (array[i - 1] > array[i]) {
                     int temporary = array[i];
                     array[i] = array[i - 1];
                     array[i - 1] = temporary;

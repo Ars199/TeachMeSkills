@@ -1,3 +1,4 @@
+/*
 public class OOP_6 {     //OOP_6
     private LightSwitch lightSwitch;// есть свво выключатель,
      String name;//стринг свво
@@ -19,3 +20,4 @@ public class OOP_6 {     //OOP_6
     }
 }
 
+*/
